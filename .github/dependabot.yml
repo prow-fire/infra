@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - directory: /
+    open-pull-requests-limit: 5
+    package-ecosystem: "terraform"
+    rebase-strategy: "disabled"
+    schedule:
+      timezone: "daily"
+    reviewers:
+      - ameukam
