@@ -5,6 +5,6 @@ updates:
     package-ecosystem: "terraform"
     rebase-strategy: "disabled"
     schedule:
-      timezone: "daily"
+      interval: "daily"
     reviewers:
       - ameukam
